@@ -1,4 +1,4 @@
-export const zodiacs = [
+const zodiacs = [
   { 'id':'1', 'name':'aquarius', 'dates':'Jan 21 - Feb 19', 'symbol':'Water Bearer' },
   { 'id':'2', 'name':'aries', 'dates':'Mar 21 - Apr 19', 'symbol':'Ram' },
   { 'id':'3', 'name':'cancer', 'dates':'Jun 21 - Jul 22', 'symbol':'Crab' },
@@ -11,3 +11,5 @@ export const zodiacs = [
   { 'id':'10', 'name':'scorpio', 'dates':'Oct 23 - Nov 21', 'symbol':'Scorpion' },
   { 'id':'11', 'name':'taurus', 'dates':'Apr 20 - May 20', 'symbol':'Bull' },
   { 'id':'12', 'name':'virgo', 'dates':'Aug 23 - Sep 22', 'symbol':'Virgin' }];
+
+module.exports = { zodiacs };
